@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Producción para talento: pasantías, crew junior, comunidad de profesionales y formación audiovisual con deleFOCO en Costa Rica." />
+  <meta name="theme-color" content="#070707" />
+  <meta name="color-scheme" content="dark light" />
+  <title>Producción para Talento | deleFOCO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="icono.png" />
+  <link rel="apple-touch-icon" href="icono.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Tu lugar en el set empieza acá | deleFOCO Talento" />
+  <meta property="og:description" content="Pasantías, crew junior, comunidad técnica y formación audiovisual en Costa Rica." />
+  <meta property="og:image" content="set-crew.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="mode-b2c theme-dark" data-audience="b2c">
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="deleFOCO">
+      <img src="logo.png" alt="deleFOCO" class="logo" width="180" height="40" decoding="async">
+    </a>
+
+    <nav class="nav" id="mainNav" aria-label="Navegación principal" data-en-aria-label="Main navigation">
+      <a href="#oportunidades" data-en="Opportunities">Oportunidades</a>
+      <a href="#roles" data-en="Roles">Roles</a>
+      <a href="#pasos" data-en="Steps">Pasos</a>
+      <a href="#faq" data-en="FAQ">Preguntas</a>
+      <a href="#contacto" data-en="Contact">Contacto</a>
+    </nav>
+
+    <div class="controls">
+      <div class="segmented" role="group" aria-label="Idioma" data-en-aria-label="Language">
+        <button type="button" class="lang-btn active" data-lang="es">ES</button>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <button class="color-toggle" id="colorToggle" type="button" aria-label="Cambiar tema" title="Cambiar tema" aria-pressed="false">
+        <span class="color-toggle-icon" aria-hidden="true">☾</span>
+        <span class="color-toggle-text">Oscuro</span>
+      </button>
+      <div class="audience-switch" role="group" aria-label="Tipo de usuario" data-en-aria-label="User type">
+        <a class="audience-item" href="https://servicio-produccion.vercel.app/" data-en="Hire a service">Contratar servicio</a>
+        <span class="audience-item active" aria-current="page" data-en="I want to join">Quiero ser parte</span>
+      </div>
+      <a class="header-cta" id="headerWhatsApp" href="https://wa.me/50686823430?text=%5BTALENTO%5D%20Hola%2C%20quiero%20enviar%20la%20informaci%C3%B3n%20del%20cuestionario%3A%0ANombre%3A%0ACorreo%3A%0ARol%20de%20inter%C3%A9s%3A%0AExperiencia%3A" target="_blank" rel="noopener" role="button">Hablar con un asesor</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-bg-photo"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-grid"></div>
+      <img src="logo-delefoco-icono.webp" alt="" class="hero-delefoco-icon" aria-hidden="true" width="640" height="640" decoding="async" fetchpriority="low">
+
+      <div class="hero-flex">
+        <div class="hero-content">
+          <p class="eyebrow" data-en="PRODUCTION · deleFOCO TALENT">PRODUCCIÓN · TALENTO deleFOCO</p>
+          <h1 id="heroTitle">
+            Tu lugar en el set<br>
+            <span>empieza acá.</span>
+          </h1>
+          <p id="heroText">
+            Si estás empezando, o ya diste tus primeros pasos, acá podés sumarte a pasantías,
+            crew junior y formación junto a la comunidad audiovisual de deleFOCO.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-red" href="#contacto" id="heroPrimary">Quiero ser parte <span>→</span></a>
+            <a class="btn btn-outline" href="#oportunidades" id="heroSecondary">Conocer oportunidades</a>
+          </div>
+          <div class="hero-meta">
+            <span><b>01</b> <span data-en="Profile">Perfil</span></span>
+            <span><b>02</b> <span data-en="Training">Formación</span></span>
+            <span><b>03</b> <span data-en="Set">Rodaje</span></span>
+          </div>
+        </div>
+
+        <div class="hero-carousel" id="heroCarousel" aria-roledescription="carrusel" data-en-aria-roledescription="carousel" aria-label="Producciones destacadas" data-en-aria-label="Featured productions">
+          <span class="hero-carousel-tag" data-en="SET">SET</span>
+          <div class="hero-carousel-track">
+            <a class="hero-carousel-slide active" href="https://delefoco.com/portafolio/" target="_blank" rel="noopener" aria-label="Ver portafolio deleFOCO: producción en set" data-en-aria-label="See the deleFOCO portfolio: on-set production" style="background-image:url('set-crew.jpg')"></a>
+            <a class="hero-carousel-slide" href="https://delefoco.com/portafolio/" target="_blank" rel="noopener" aria-label="Ver portafolio deleFOCO: cámara y crew" data-en-aria-label="See the deleFOCO portfolio: camera and crew" style="background-image:url('set-camara.jpg')"></a>
+            <a class="hero-carousel-slide" href="https://delefoco.com/escuela/" target="_blank" rel="noopener" aria-label="Ver la Escuela deleFOCO" data-en-aria-label="See the deleFOCO School" style="background-image:url('estudio.jpg')"></a>
+            <a class="hero-carousel-slide" href="https://delefoco.com/portafolio/" target="_blank" rel="noopener" aria-label="Ver portafolio deleFOCO: rodaje" data-en-aria-label="See the deleFOCO portfolio: shoot" style="background-image:url('set-claqueta.jpg')"></a>
+          </div>
+          <button type="button" class="hero-carousel-arrow prev" id="heroCarouselPrev" aria-label="Anterior" data-en-aria-label="Previous">‹</button>
+          <button type="button" class="hero-carousel-arrow next" id="heroCarouselNext" aria-label="Siguiente" data-en-aria-label="Next">›</button>
+          <div class="hero-carousel-dots" id="heroCarouselDots" role="tablist" aria-label="Seleccionar imagen" data-en-aria-label="Select image">
+            <button type="button" class="active" data-index="0" role="tab" aria-selected="true" aria-label="Imagen 1" data-en-aria-label="Image 1"></button>
+            <button type="button" data-index="1" role="tab" aria-selected="false" aria-label="Imagen 2" data-en-aria-label="Image 2"></button>
+            <button type="button" data-index="2" role="tab" aria-selected="false" aria-label="Imagen 3" data-en-aria-label="Image 3"></button>
+            <button type="button" data-index="3" role="tab" aria-selected="false" aria-label="Imagen 4" data-en-aria-label="Image 4"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Camino de talento" data-en-aria-label="Talent path">
+      <div>
+        <strong>01</strong>
+        <span data-en="Internship and junior crew on a real set">Pasantía y crew junior en un set real</span>
+      </div>
+      <div>
+        <strong>02</strong>
+        <span data-en="Technical community by role and category">Comunidad técnica por rol y categoría</span>
+      </div>
+      <div>
+        <strong>03</strong>
+        <span data-en="Training connected to the industry">Formación conectada con la industria</span>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span data-en="CAMERA">CÁMARA</span><i>●</i><span data-en="SOUND">SONIDO</span><i>●</i><span data-en="DIRECTION">DIRECCIÓN</span><i>●</i><span data-en="ART">ARTE</span><i>●</i><span data-en="LIGHTING">ILUMINACIÓN</span><i>●</i><span data-en="EDITING">EDICIÓN</span><i>●</i><span data-en="PRODUCTION">PRODUCCIÓN</span><i>●</i><span data-en="JUNIOR CREW">CREW JUNIOR</span><i>●</i>
+        </div>
+        <div class="marquee-group">
+          <span data-en="CAMERA">CÁMARA</span><i>●</i><span data-en="SOUND">SONIDO</span><i>●</i><span data-en="DIRECTION">DIRECCIÓN</span><i>●</i><span data-en="ART">ARTE</span><i>●</i><span data-en="LIGHTING">ILUMINACIÓN</span><i>●</i><span data-en="EDITING">EDICIÓN</span><i>●</i><span data-en="PRODUCTION">PRODUCCIÓN</span><i>●</i><span data-en="JUNIOR CREW">CREW JUNIOR</span><i>●</i>
+        </div>
+      </div>
+    </div>
+
+    <section class="eco-band" aria-label="Ecosistema deleFOCO" data-en-aria-label="deleFOCO ecosystem">
+      <div class="eco-band-inner">
+        <img src="logo-delefoco-icono.webp" alt="" class="eco-band-icon" width="56" height="56" decoding="async" aria-hidden="true">
+        <p class="eco-band-text">
+          <strong data-en="Your path, connected to the deleFOCO ecosystem.">Tu camino, conectado al ecosistema deleFOCO.</strong>
+          <span data-en="Training, a professional profile and crew calls live in the same community.">Formación, perfil profesional y convocatorias de crew viven en la misma comunidad.</span>
+        </p>
+        <nav class="eco-band-links" aria-label="Ecosistema deleFOCO" data-en-aria-label="deleFOCO ecosystem">
+          <a href="https://delefoco.com/escuela/" target="_blank" rel="noopener" data-en="Training">Formación</a>
+          <a href="https://delefoco.com/comunidad/" target="_blank" rel="noopener" data-en="Professionals">Profesionales</a>
+          <a href="https://delefoco.com/?action=news&amp;cat=1152" target="_blank" rel="noopener" data-en="Opportunities">Oportunidades</a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section" id="oportunidades">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow dark" data-en="WHERE YOU CAN START">DÓNDE PODÉS EMPEZAR</p>
+          <h2 data-en="Opportunities to learn on a real set.">Oportunidades para aprender en un set real.</h2>
+        </div>
+        <p data-en="Three ways to join: an internship, the technical community, or training linked to the industry.">Tres formas de entrar: una pasantía, la comunidad técnica o la formación ligada a la industria.</p>
+      </div>
+      <div class="service-grid service-grid-6">
+        <article class="service-card">
+          <span class="service-number">01</span>
+          <h3 data-en="Internship / junior crew">Pasantía / crew junior</h3>
+          <p data-en="Join a shoot as support: calls, lists, set assistance and a first look at how a production day works.">Sumate a un rodaje como apoyo: llamadas, listas, asistencia de set y una primera mirada a cómo se trabaja un día de producción.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-number">02</span>
+          <h3 data-en="Technical freelancer community">Comunidad de freelancers técnicos</h3>
+          <p data-en="Camera, sound, art and production profiles that already work with the community and open space to learn beside them.">Perfiles de cámara, sonido, arte y producción que ya trabajan con la comunidad y abren espacio para aprender a la par.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-number">03</span>
+          <h3 data-en="Related training">Formación relacionada</h3>
+          <p data-en="Workshops and the deleFOCO School, connected to the same industry you want to join.">Talleres y la Escuela deleFOCO, conectados con la misma industria a la que querés entrar.</p>
+        </article>
+      </div>
+      <div class="section-actions">
+        <a class="btn btn-red" href="https://delefoco.com/escuela/" target="_blank" rel="noopener" data-en="Go to the School">Ir a la Escuela</a>
+        <a class="btn btn-outline" href="#roles" data-en="Create my professional profile">Crear mi perfil profesional</a>
+        <a class="btn btn-outline" href="#contacto" data-en="Send my interest form">Enviar mi ficha de interés</a>
+      </div>
+    </section>
+
+    <section class="section categories" id="roles">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow dark" data-en="COMMUNITY BY CATEGORY">COMUNIDAD POR CATEGORÍA</p>
+          <h2 data-en="Create your professional profile in the role you want to practice.">Creá tu perfil profesional en el rol que querés practicar.</h2>
+        </div>
+        <p data-en="The directory groups talent by category: direction, camera, sound, art, lighting, editing and production. That is how crew calls find you.">El directorio agrupa talento por categoría: dirección, cámara, sonido, arte, iluminación, edición y producción. Así te encuentran las convocatorias.</p>
+      </div>
+      <div class="cat-grid">
+        <div class="cat-tile cat-script" data-role="Dirección" role="button" tabindex="0" aria-expanded="false">
+          <span data-en="Direction">Dirección</span>
+          <div class="cat-back" aria-hidden="true"></div>
+        </div>
+        <div class="cat-tile cat-camera" data-role="Cámara" role="button" tabindex="0" aria-expanded="false">
+          <span data-en="Camera">Cámara</span>
+          <div class="cat-back" aria-hidden="true"></div>
+        </div>
+        <div class="cat-tile cat-sound" data-role="Sonido" role="button" tabindex="0" aria-expanded="false">
+          <span data-en="Sound">Sonido</span>
+          <div class="cat-back" aria-hidden="true"></div>
+        </div>
+        <div class="cat-tile cat-art" data-role="Arte" role="button" tabindex="0" aria-expanded="false">
+          <span data-en="Art">Arte</span>
+          <div class="cat-back" aria-hidden="true"></div>
+        </div>
+        <div class="cat-tile cat-film" data-role="Iluminación" role="button" tabindex="0" aria-expanded="false">
+          <span data-en="Lighting">Iluminación</span>
+          <div class="cat-back" aria-hidden="true"></div>
+        </div>
+        <div class="cat-tile cat-edit" data-role="Edición" role="button" tabindex="0" aria-expanded="false">
+          <span data-en="Editing">Edición</span>
+          <div class="cat-back" aria-hidden="true"></div>
+        </div>
+        <div class="cat-tile cat-production" data-role="Producción" role="button" tabindex="0" aria-expanded="false">
+          <span data-en="Production">Producción</span>
+          <div class="cat-back" aria-hidden="true"></div>
+        </div>
+        <div class="cat-tile cat-acting" data-role="Crew junior" role="button" tabindex="0" aria-expanded="false">
+          <span data-en="Junior crew">Crew junior</span>
+          <div class="cat-back" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="section-actions">
+        <a class="btn btn-red" href="https://delefoco.com/comunidad/" target="_blank" rel="noopener" data-en="Open the community directory">Abrir el directorio de la comunidad</a>
+        <a class="btn btn-outline" href="#pasos" data-en="See the steps">Ver los pasos</a>
+      </div>
+    </section>
+
+    <section class="process section" id="pasos">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow dark" data-en="HOW TO JOIN">CÓMO SER TALENTO</p>
+          <h2 data-en="The steps to join as talent.">Los pasos para sumarte como talento.</h2>
+        </div>
+        <p data-en="A simple path for students and junior profiles. You always know what to prepare and what comes next.">Un camino simple para estudiantes y perfiles junior. Siempre sabés qué preparar y qué sigue.</p>
+      </div>
+      <ol class="flow-list">
+        <li class="flow-step">
+          <span class="flow-num">01</span>
+          <div class="flow-main">
+            <h3 data-en="Tell us who you are">Contanos quién sos</h3>
+            <p data-en="Name, area of interest and a short note about what you have already done, even if it is a class project.">Nombre, área de interés y una nota corta de lo que ya hiciste, aunque sea un trabajo de clase.</p>
+          </div>
+          <div class="flow-you">
+            <span class="flow-you-label" data-en="What you need">Lo que necesitás</span>
+            <p data-en="A clear area: camera, sound, direction, art or another role.">Un área clara: cámara, sonido, dirección, arte u otro rol.</p>
+          </div>
+        </li>
+        <li class="flow-step">
+          <span class="flow-num">02</span>
+          <div class="flow-main">
+            <h3 data-en="Create your professional profile">Creá tu perfil profesional</h3>
+            <p data-en="Publish your profile in the community directory, in the category that matches what you want to do.">Publicá tu perfil en el directorio de la comunidad, en la categoría que coincide con lo que querés hacer.</p>
+          </div>
+          <div class="flow-you">
+            <span class="flow-you-label" data-en="Categories">Categorías</span>
+            <div class="role-chips-inline"><button type="button" class="role-chip" data-role="Dirección" aria-haspopup="dialog"><span data-en="Direction">Dirección</span></button><button type="button" class="role-chip" data-role="Cámara" aria-haspopup="dialog"><span data-en="Camera">Cámara</span></button><button type="button" class="role-chip" data-role="Sonido" aria-haspopup="dialog"><span data-en="Sound">Sonido</span></button><button type="button" class="role-chip" data-role="Arte" aria-haspopup="dialog"><span data-en="Art">Arte</span></button><button type="button" class="role-chip" data-role="Iluminación" aria-haspopup="dialog"><span data-en="Lighting">Iluminación</span></button><button type="button" class="role-chip" data-role="Edición" aria-haspopup="dialog"><span data-en="Editing">Edición</span></button><button type="button" class="role-chip" data-role="Producción" aria-haspopup="dialog"><span data-en="Production">Producción</span></button></div>
+          </div>
+        </li>
+        <li class="flow-step">
+          <span class="flow-num">03</span>
+          <div class="flow-main">
+            <h3 data-en="Train with the School">Formate con la Escuela</h3>
+            <p data-en="Use workshops and School resources to practice before or between shoots.">Usá talleres y recursos de la Escuela para practicar antes o entre rodajes.</p>
+          </div>
+          <div class="flow-you">
+            <span class="flow-you-label" data-en="Link">Enlace</span>
+            <p><a href="https://delefoco.com/escuela/" target="_blank" rel="noopener" data-en="Go to the School">Ir a la Escuela</a></p>
+          </div>
+        </li>
+        <li class="flow-step">
+          <span class="flow-num">04</span>
+          <div class="flow-main">
+            <h3 data-en="Hear about crew calls">Enterate de convocatorias</h3>
+            <p data-en="When there is room for junior support, internships or crew calls, your profile is already in the network.">Cuando hay espacio para apoyo junior, pasantías o crew, tu perfil ya está en la red.</p>
+          </div>
+          <div class="flow-you">
+            <span class="flow-you-label" data-en="Opportunities">Oportunidades</span>
+            <p><a href="https://delefoco.com/?action=news&amp;cat=1152" target="_blank" rel="noopener" data-en="See crew calls">Ver convocatorias</a></p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section traits" id="perfil">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow dark" data-en="WHAT WE LOOK FOR">QUÉ BUSCAMOS EN VOS</p>
+          <h2 data-en="Attitude first. The rest is learned on set.">Primero la actitud. Lo demás se aprende en el set.</h2>
+        </div>
+        <p data-en="You do not need a long resume to start. These are the qualities that make a junior profile grow fast.">No necesitás un currículum largo para empezar. Estas son las cualidades que hacen crecer rápido a un perfil junior.</p>
+      </div>
+      <div class="trait-grid">
+        <article class="trait"><b>01</b><h3 data-en="Desire to learn">Ganas de aprender</h3><p data-en="You ask, observe and take feedback as part of the job.">Preguntás, observás y recibís la retroalimentación como parte del trabajo.</p></article>
+        <article class="trait"><b>02</b><h3 data-en="Commitment">Compromiso</h3><p data-en="Punctuality and follow-through matter more on a shoot than anywhere else.">La puntualidad y el cumplimiento valen más en un rodaje que en cualquier otro lugar.</p></article>
+        <article class="trait"><b>03</b><h3 data-en="Teamwork">Trabajo en equipo</h3><p data-en="A set is a team of departments. You support others and communicate clearly.">Un set es un equipo de departamentos. Apoyás a los demás y comunicás con claridad.</p></article>
+        <article class="trait"><b>04</b><h3 data-en="Curiosity for a role">Curiosidad por un rol</h3><p data-en="You already lean toward camera, sound, art or another area, even if you are still exploring.">Ya te inclinás por cámara, sonido, arte u otra área, aunque todavía estés explorando.</p></article>
+      </div>
+    </section>
+
+    <section class="section who" id="faq">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow dark" data-en="BEFORE YOU APPLY">ANTES DE ESCRIBIRNOS</p>
+          <h2 data-en="Is this for you? Common questions.">¿Es para vos? Preguntas frecuentes.</h2>
+        </div>
+        <p data-en="Students, self-taught people and junior profiles: if you want to learn on a real set, you are in the right place.">Estudiantes, autodidactas y perfiles junior: si querés aprender en un set real, estás en el lugar correcto.</p>
+      </div>
+      <div class="faq-list">
+        <details><summary data-en="Do I need experience?">¿Necesito experiencia?</summary><p data-en="No. A class project, a short film with friends or just curiosity is enough to start. We use your note to suggest a path, not to filter you out.">No. Un trabajo de clase, un corto con amigos o solo curiosidad alcanza para empezar. Usamos tu nota para sugerirte un camino, no para dejarte afuera.</p></details>
+        <details><summary data-en="Is this a job offer?">¿Esto es una oferta de trabajo?</summary><p data-en="No. It is an interest form. Internships, junior crew spots and calls open depending on each production.">No. Es una ficha de interés. Las pasantías, el crew junior y las convocatorias se abren según cada producción.</p></details>
+        <details><summary data-en="Are internships paid? How long do they last?">¿Las pasantías son remuneradas? ¿Cuánto duran?</summary><p data-en="It depends on each call. We confirm conditions, dates and schedule on WhatsApp before you commit to anything.">Depende de cada convocatoria. Te confirmamos condiciones, fechas y horarios por WhatsApp antes de que te comprometás a algo.</p></details>
+        <details><summary data-en="What happens after I send my form?">¿Qué pasa después de enviar mi ficha?</summary><p data-en="The team replies on WhatsApp with your next step: a community profile, the School or a crew call.">El equipo te responde por WhatsApp con tu siguiente paso: perfil en la comunidad, la Escuela o una convocatoria.</p></details>
+        <details><summary data-en="I do not live in San José. Can I join?">No vivo en San José, ¿puedo participar?</summary><p data-en="Yes. Add your city or area in the form and we will tell you what fits, including remote options.">Sí. Indicá tu ciudad o zona en la ficha y te contamos qué opciones calzan, incluidas las remotas.</p></details>
+        <details><summary data-en="Can I join if I am under 18?">¿Puedo participar si soy menor de edad?</summary><p data-en="Write to us and tell us your age. Conditions for minors are reviewed case by case.">Escribinos e indicanos tu edad. Las condiciones para menores se revisan caso por caso.</p></details>
+      </div>
+      <div class="section-actions">
+        <a class="btn btn-red" href="#contacto" data-en="Send my interest form">Enviar mi ficha de interés</a>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="contact-intro">
+        <p class="eyebrow dark" data-en="INTEREST FORM">FICHA DE INTERÉS</p>
+        <h2 id="contactTitle">Contanos tu rol. Nosotros te decimos el siguiente paso.</h2>
+        <p id="contactText">No es una postulación formal ni una vacante abierta. Es un registro simple para pasantías, crew junior o formación. Te escribimos por WhatsApp con lo que sigue: perfil en la comunidad, Escuela o una convocatoria.</p>
+        <div class="contact-info">
+          <div><span data-en="What happens next">Qué sigue</span><strong data-en="We reply on WhatsApp with the next step.">Te respondemos por WhatsApp con el siguiente paso.</strong></div>
+          <div><span>WhatsApp</span><strong>+506 8682-3430</strong></div>
+          <div><span>Email</span><strong><a href="mailto:comunidad@delefoco.com?subject=Talento%20deleFOCO%20-%20quiero%20participar">comunidad@delefoco.com</a></strong></div>
+        </div>
+      </div>
+
+      <form class="lead-form" id="leadForm">
+        <p class="form-note full" data-en="Required: name, email, role, how you want to start and a short note. The rest is optional.">Obligatorio: nombre, correo, rol, cómo querés empezar y una nota corta. El resto es opcional.</p>
+        <label>
+          <span data-en="Full name">Nombre completo</span>
+          <input name="name" required placeholder="Tu nombre y apellido" data-en-placeholder="Your first and last name" autocomplete="name" />
+        </label>
+        <label>
+          <span data-en="Email">Correo</span>
+          <input type="email" name="email" required placeholder="tu@correo.com" data-en-placeholder="you@email.com" autocomplete="email" />
+        </label>
+        <label>
+          <span data-en="WhatsApp (optional)">WhatsApp (opcional)</span>
+          <input type="tel" name="phone" placeholder="+506 0000-0000" data-en-placeholder="+506 0000-0000" autocomplete="tel" />
+        </label>
+        <label>
+          <span data-en="City or area (optional)">Ciudad o zona (opcional)</span>
+          <input name="city" placeholder="San José, Cartago, remoto…" data-en-placeholder="San José, Cartago, remote…" autocomplete="address-level2" />
+        </label>
+        <label>
+          <span data-en="Role of interest">Rol de interés</span>
+          <select name="role" required>
+            <option value="" data-en="Select a role">Seleccioná un rol</option>
+            <option value="Cámara" data-en="Camera">Cámara</option>
+            <option value="Sonido" data-en="Sound">Sonido</option>
+            <option value="Dirección" data-en="Direction">Dirección</option>
+            <option value="Arte" data-en="Art">Arte</option>
+            <option value="Iluminación" data-en="Lighting">Iluminación</option>
+            <option value="Edición" data-en="Editing">Edición</option>
+            <option value="Producción" data-en="Production">Producción</option>
+            <option value="Crew junior" data-en="Junior crew">Crew junior</option>
+            <option value="Otro" data-en="Other">Otro</option>
+          </select>
+        </label>
+        <label>
+          <span data-en="How do you want to start?">¿Cómo querés empezar?</span>
+          <select name="path" required>
+            <option value="" data-en="Select a path">Elegí una vía</option>
+            <option value="Pasantía" data-en="Internship">Pasantía</option>
+            <option value="Crew junior" data-en="Junior crew">Crew junior</option>
+            <option value="Comunidad de freelancers" data-en="Technical freelancer community">Comunidad de freelancers</option>
+            <option value="Formación / Escuela" data-en="Training / School">Formación / Escuela</option>
+            <option value="Aún no lo sé" data-en="Not sure yet">Aún no lo sé</option>
+          </select>
+        </label>
+        <label class="full">
+          <span data-en="Experience">Experiencia</span>
+          <textarea name="experience" rows="5" required minlength="20" placeholder="Contanos qué ya hiciste: clases, proyectos cortos, apoyo en un rodaje o si estás empezando desde cero. Con 2 o 3 líneas alcanza." data-en-placeholder="Tell us what you have already done: classes, short projects, set support — or if you are starting from scratch. Two or three lines is enough."></textarea>
+          <small class="form-hint" data-en="Even a class project counts. We use this note to suggest a path, not to filter you out.">Aunque sea un trabajo de clase cuenta. Usamos esta nota para sugerirte un camino, no para dejarte afuera.</small>
+        </label>
+        <label class="full">
+          <span data-en="Reel or portfolio (optional)">Reel o portafolio (opcional)</span>
+          <input type="url" name="reel" placeholder="https://…" data-en-placeholder="https://…" inputmode="url" />
+          <small class="form-hint" data-en="Drive, Vimeo, YouTube or a community profile. Leave it blank if you do not have one yet.">Drive, Vimeo, YouTube o un perfil de la comunidad. Si todavía no tenés, dejalo en blanco.</small>
+        </label>
+        <label class="check full" id="consentLabel">
+          <input type="checkbox" name="consent" required />
+          <span data-en="I understand this is an interest form, not a job offer, I want to be contacted about internships, junior crew or training, and I have read the <a href='#' data-privacy>Privacy Notice</a>.">Entiendo que esto es una ficha de interés, no una oferta de trabajo, quiero que me contacten por pasantías, crew junior o formación, y he leído el <a href="#" data-privacy>Aviso de privacidad</a>.</span>
+        </label>
+        <p class="form-note full privacy" data-en="We only use your data to contact you about deleFOCO talent opportunities. If you are under 18, please say so in your note. <a href='#' data-privacy>Read the Privacy Notice</a>.">Usamos tus datos únicamente para contactarte sobre oportunidades de talento en deleFOCO. Si sos menor de edad, indicalo en tu nota. <a href="#" data-privacy>Leer el Aviso de privacidad</a>.</p>
+        <button class="btn btn-red full" type="button" id="whatsappSubmit">Enviar ficha por WhatsApp <span>→</span></button>
+        <p class="form-note full" data-en="Your answers open in WhatsApp so the team can reply with the next step: School, community profile or a crew call.">Tus respuestas se abren en WhatsApp para que el equipo te responda con el siguiente paso: Escuela, perfil en la comunidad o una convocatoria.</p>
+        <p class="form-status full" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer-profesional">
+    <div class="footer-social">
+      <div class="footer-social-inner">
+        <h3 data-en="Connect with the audiovisual community">Conectá con la comunidad audiovisual</h3>
+        <div class="social-list">
+          <a class="social-item" href="https://www.facebook.com/delefoco" target="_blank" rel="noopener" aria-label="Facebook">
+            <span class="social-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21h3.1z"/></svg>
+            </span>
+            <span class="social-text"><strong data-en="Follow us">Seguinos</strong><span data-en="on Facebook">en Facebook</span></span>
+          </a>
+          <a class="social-item" href="https://www.instagram.com/delefoco/" target="_blank" rel="noopener" aria-label="Instagram">
+            <span class="social-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+            </span>
+            <span class="social-text"><strong data-en="Follow us">Seguinos</strong><span data-en="on Instagram">en Instagram</span></span>
+          </a>
+          <a class="social-item" data-talent-wa href="https://wa.me/50686823430?text=%5BTALENTO%5D%20Hola%2C%20quiero%20enviar%20la%20informaci%C3%B3n%20del%20cuestionario%3A%0ANombre%3A%0ACorreo%3A%0ARol%20de%20inter%C3%A9s%3A%0AExperiencia%3A" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <span class="social-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 21l1.65-4.9A8.5 8.5 0 1 1 8 19.4L3 21z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.5-2-1-1 .7c-1-.4-2-1.4-2.4-2.4l.7-1-1-2L9 8.5z" fill="currentColor" stroke="none"/></svg>
+            </span>
+            <span class="social-text"><strong data-en="Write to us">Escribinos</strong><span data-en="on WhatsApp">en WhatsApp</span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-main">
+      <div class="footer-wrap">
+        <div class="footer-brand-area">
+          <a href="#inicio" class="footer-logo-link" aria-label="deleFOCO">
+            <img src="logo.png" alt="deleFOCO" class="logo footer-logo-img" width="180" height="40" loading="lazy" decoding="async">
+          </a>
+          <p><span data-en="Audiovisual community">Comunidad audiovisual</span><br><a class="footer-eco-link" href="https://delefoco.com/" target="_blank" rel="noopener" data-en="Part of the deleFOCO ecosystem">Parte del ecosistema deleFOCO</a></p>
+        </div>
+        <div class="footer-column">
+          <h4 data-en="LOCATION">UBICACIÓN</h4>
+          <p>San José,<br>Costa Rica</p>
+        </div>
+        <div class="footer-column">
+          <h4 data-en="CONTACT">CONTACTO</h4>
+          <a href="tel:+50622244696">+506 2224-4696</a>
+          <a data-talent-wa href="https://wa.me/50686823430?text=%5BTALENTO%5D%20Hola%2C%20quiero%20enviar%20la%20informaci%C3%B3n%20del%20cuestionario%3A%0ANombre%3A%0ACorreo%3A%0ARol%20de%20inter%C3%A9s%3A%0AExperiencia%3A" target="_blank" rel="noopener">WhatsApp +506 8682-3430</a>
+          <a href="mailto:comunidad@delefoco.com?subject=Talento%20deleFOCO%20-%20quiero%20participar">comunidad@delefoco.com</a>
+        </div>
+        <div class="footer-column footer-important">
+          <h4 data-en="EXPLORE">EXPLORÁ</h4>
+          <div class="footer-links footer-links-2col">
+            <a href="https://delefoco.com/" target="_blank" rel="noopener" data-en="About us">Nosotros</a>
+            <a href="https://delefoco.com/portafolio/" target="_blank" rel="noopener" data-en="Portfolio">Portafolio</a>
+            <a href="https://delefoco.com/comunidad/" target="_blank" rel="noopener" data-en="Community">Comunidad</a>
+            <a href="https://delefoco.com/escuela/" target="_blank" rel="noopener" data-en="School">Escuela</a>
+            <a href="https://delefoco.com/locaciones/" target="_blank" rel="noopener" data-en="Locations">Locaciones</a>
+            <a href="#roles" data-en="Roles">Roles</a>
+            <a href="#oportunidades" data-en="Opportunities">Oportunidades</a>
+            <a href="https://delefoco.com/noticias/" target="_blank" rel="noopener" data-en="Magazine">Revista</a>
+            <a href="#contacto" data-en="Contact">Contacto</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span data-en="© 2026 deleFOCO · Audiovisual Community">© 2026 deleFOCO · Comunidad Audiovisual</span>
+        <div class="footer-bottom-links">
+          <a href="#" data-privacy data-en="Privacy Notice">Aviso de privacidad</a>
+          <a href="https://delefoco.com/" target="_blank" rel="noopener">delefoco.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="privacy-dialog" id="privacyDialog" aria-labelledby="privacyTitle">
+    <div class="privacy-head">
+      <h2 id="privacyTitle" data-en="Privacy Notice">Aviso de privacidad</h2>
+      <button type="button" class="privacy-close" id="privacyClose" aria-label="Cerrar" data-en-aria-label="Close">×</button>
+    </div>
+    <div class="privacy-body">
+      <p class="privacy-date" data-en="Last updated: October 2026">Última actualización: octubre de 2026</p>
+      <h3 data-en="Who is responsible">Quién es el responsable</h3>
+      <p data-en="deleFOCO, audiovisual community based in San José, Costa Rica, is responsible for the personal data you send through this form. Contact: comunidad@delefoco.com.">deleFOCO, comunidad audiovisual con sede en San José, Costa Rica, es responsable de los datos personales que enviás por este formulario. Contacto: comunidad@delefoco.com.</p>
+      <h3 data-en="What data we collect">Qué datos recopilamos</h3>
+      <p data-en="Name, email, WhatsApp number and city or area (optional), role of interest, how you want to start, your experience note and, if you share it, a link to your reel or portfolio.">Nombre, correo, número de WhatsApp y ciudad o zona (opcionales), rol de interés, cómo querés empezar, tu nota de experiencia y, si lo compartís, un enlace a tu reel o portafolio.</p>
+      <h3 data-en="What we use it for">Para qué lo usamos</h3>
+      <p data-en="Only to contact you about internships, junior crew, the deleFOCO community and training, and to suggest your next step. This form is not a job application or a job offer.">Únicamente para contactarte sobre pasantías, crew junior, la comunidad deleFOCO y formación, y para sugerirte tu siguiente paso. Esta ficha no es una postulación formal ni una oferta de trabajo.</p>
+      <h3 data-en="How your data travels">Cómo viajan tus datos</h3>
+      <p data-en="When you press the send button, your answers open in WhatsApp so you can send them to our team. WhatsApp is operated by a third party and is subject to its own privacy policy.">Al presionar el botón de envío, tus respuestas se abren en WhatsApp para que las envíes a nuestro equipo. WhatsApp es operado por un tercero y se rige por su propia política de privacidad.</p>
+      <h3 data-en="Sharing">Con quién los compartimos</h3>
+      <p data-en="We do not sell your data. We may share your profile with deleFOCO productions or crew calls only for opportunities related to what you asked for.">No vendemos tus datos. Podemos compartir tu perfil con producciones o convocatorias de deleFOCO solo para oportunidades relacionadas con lo que solicitaste.</p>
+      <h3 data-en="Minors">Menores de edad</h3>
+      <p data-en="If you are under 18, tell us in your note. Participation and data handling for minors are reviewed case by case and may require authorization from a parent or legal guardian.">Si sos menor de 18 años, indicalo en tu nota. La participación y el tratamiento de datos de menores se revisan caso por caso y pueden requerir autorización de tu madre, padre o encargado legal.</p>
+      <h3 data-en="Your rights">Tus derechos</h3>
+      <p data-en="Under Costa Rican law on the protection of personal data (Law 8968) you can request access, rectification or deletion of your data, and withdraw your consent at any time, by writing to comunidad@delefoco.com.">De acuerdo con la ley costarricense de protección de datos personales (Ley 8968), podés solicitar acceso, rectificación o eliminación de tus datos y retirar tu consentimiento en cualquier momento escribiendo a comunidad@delefoco.com.</p>
+      <h3 data-en="How long we keep it">Cuánto tiempo los conservamos</h3>
+      <p data-en="Only as long as needed for the purposes above, or until you ask us to delete them.">Solo el tiempo necesario para las finalidades descritas, o hasta que nos pidas eliminarlos.</p>
+    </div>
+    <div class="privacy-foot"><button type="button" class="btn btn-red" id="privacyOk" data-en="Understood">Entendido</button></div>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
